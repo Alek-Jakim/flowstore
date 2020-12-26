@@ -1,0 +1,23 @@
+{
+  "name": "flowshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alek-Jakim/flowshop.git"
+  },
+  "keywords": [],
+  "author": "Aleksandar Jakimovski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alek-Jakim/flowshop/issues"
+  },
+  "homepage": "https://github.com/Alek-Jakim/flowshop#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
