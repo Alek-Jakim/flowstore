@@ -17,17 +17,17 @@ const ProductScreen = ({ match }) => {
             setProduct(data);
         }
         fetchProduct()
-    }, [])
+    }, [match])
 
     return (
         <>
             <Link className="btn btn-dark my-3" to="/">Go Back</Link>
             <Row>
-                <Col md={6}>
+                <Col md={5}>
                     <Image src={product.image} alt={product.name} fluid />
                 </Col>
-                <Col md={3}>
-                    <ListGroup variant="flush" style={{ width: '280px', maxWidth: '500px' }}>
+                <Col md={3} className="mr-5">
+                    <ListGroup variant="flush" style={{ width: '300px', maxWidth: '600px' }}>
                         <ListGroup.Item>
                             <h3>{product.name}</h3>
                         </ListGroup.Item>
@@ -38,7 +38,7 @@ const ProductScreen = ({ match }) => {
                         <ListGroup.Item style={{ fontSize: '1rem' }}>Description: {product.description}</ListGroup.Item>
                     </ListGroup>
                 </Col>
-                <Col md={3} className="my-3" style={{ width: '500px', }}>
+                <Col md={3} style={{ width: '500px', }}>
                     <Card>
                         <ListGroup variant="flush">
                             <ListGroup.Item>
