@@ -1,6 +1,5 @@
 const products = [
     {
-        _id: '1',
         name: 'Black Nova Plus Basic BJJ Gi',
         image: '/images/tatami-gi.jpg',
         description:
@@ -13,7 +12,6 @@ const products = [
         numReviews: 12,
     },
     {
-        _id: '2',
         name: 'Enson Inoue BJJ Gi - White, Traditional',
         image: '/images/inoue-gi.jpg',
         description:
@@ -26,7 +24,6 @@ const products = [
         numReviews: 8,
     },
     {
-        _id: '3',
         name: 'Venum Contenter EVO BJJ Gi - Dark Grey',
         image: '/images/venum-gi.jpg',
         description:
@@ -39,7 +36,6 @@ const products = [
         numReviews: 9,
     },
     {
-        _id: '4',
         name: 'Oni ECO Tech Recycled Rash Guard',
         image: '/images/oni-rashguard.jpg',
         description:
@@ -52,7 +48,6 @@ const products = [
         numReviews: 8,
     },
     {
-        _id: '5',
         name: 'Venum NoGi 2.0 Rash Guard - Long Sleeves',
         image: '/images/venum-rashguard.jpg',
         description:
@@ -65,7 +60,6 @@ const products = [
         numReviews: 21,
     },
     {
-        _id: '6',
         name: 'Long Sleeve Supreme Training Rash Guard',
         image: '/images/hyperfly-rashguard.jpg',
         description:
