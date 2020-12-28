@@ -6,7 +6,6 @@ import Message from '../components/Message'
 import Loader from '../components/Loader'
 import { useDispatch, useSelector } from 'react-redux'
 import { listProducts } from '../redux/actions/productActions'
-import axios from 'axios'
 
 const HomeScreen = () => {
 
