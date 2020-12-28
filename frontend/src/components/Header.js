@@ -14,7 +14,7 @@ const Header = () => {
         <header>
             <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
                 <Container>
-                    <LinkContainer to="/"><Navbar.Brand style={{ display: 'flex', alignItems: 'center' }}><img src={logo} alt="logo" style={{ height: '20px', width: '20px', marginRight: '10px' }} />FlowShop</Navbar.Brand></LinkContainer>
+                    <LinkContainer to="/"><Navbar.Brand style={{ display: 'flex', alignItems: 'center' }}><img src={logo} alt="logo" style={{ height: '20px', width: '20px', marginRight: '10px' }} />FlowStore</Navbar.Brand></LinkContainer>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ml-auto">
