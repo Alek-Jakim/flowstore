@@ -6,10 +6,6 @@ import '../global.css'
 
 const Header = () => {
 
-    let navStyles = {
-        color: 'white'
-    }
-
     return (
         <header>
             <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
