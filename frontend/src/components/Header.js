@@ -1,6 +1,10 @@
 import React from 'react'
+
+//Bootstrap
 import { Navbar, Nav, Container } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap';
+
+//Styling
 import logo from '../img/logo.png'
 import '../global.css'
 
