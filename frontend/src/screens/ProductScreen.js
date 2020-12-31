@@ -15,7 +15,7 @@ import Message from '../components/Message'
 
 const ProductScreen = ({ match, history }) => {
 
-    const [quantity, setQuantity] = useState(0);
+    const [quantity, setQuantity] = useState(1);
 
 
     const dispatch = useDispatch();

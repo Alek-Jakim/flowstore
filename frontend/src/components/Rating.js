@@ -3,6 +3,9 @@ import { starRating } from '../utils/starRating'
 import propTypes from 'prop-types';
 
 const Rating = ({ rating, text, color }) => {
+
+
+
     return (
         <div className="rating">
             <span>
@@ -28,11 +31,11 @@ const Rating = ({ rating, text, color }) => {
 Rating.defaultProps = {
     color: '#74db78'
 }
+// Rating.propTypes = {
+//     rating: propTypes.number.isRequired,
+//     text: propTypes.string.isRequired,
+//     color: propTypes.string
+// }
 
-Rating.propTypes = {
-    rating: propTypes.number.isRequired,
-    text: propTypes.string.isRequired,
-    color: propTypes.string
-}
 
 export default Rating
