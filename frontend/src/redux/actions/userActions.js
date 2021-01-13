@@ -1,6 +1,5 @@
-import { USER_LOGIN_REQUEST, USER_LOGIN_SUCCESS } from "../constants/userConstants"
+import { USER_LOGIN_FAIL, USER_LOGIN_REQUEST, USER_LOGIN_SUCCESS } from "../constants/userConstants"
 import axios from 'axios';
-import { PRODUCT_DETAILS_FAIL } from "../constants/productConstants";
 
 export const login = (email, password) => async (dispatch) => {
     try {
@@ -25,7 +24,7 @@ export const login = (email, password) => async (dispatch) => {
     }
     catch (error) {
         dispatch({
-            type: PRODUCT_DETAILS_FAIL,
+            type: USER_LOGIN_FAIL,
             payload: error.response && error.response.data.message ? error.response.data.message : error.message
         })
     }
