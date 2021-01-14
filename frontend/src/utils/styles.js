@@ -1,7 +1,8 @@
 export const styles = {
     formInputStyles: {
-        fontSize: '1.2rem',
-        outline: 'none'
+        fontSize: '1.1rem',
+        outline: 'none',
+        border: '1px solid #333'
     },
     buttonStyle: {
         fontSize: '1rem'
