@@ -22,7 +22,7 @@ const HomeScreen = () => {
 
     return (
         <>
-            <h1 style={{ marginTop: '10px' }}>Latest Products</h1>
+            <h1 style={{ marginTop: '10px', color: '#000' }}>Latest Products</h1>
             {loading ? <Loader /> : error ? <Message variant='danger'>{error}</Message> :
                 <Row>
                     {products.map(product => (

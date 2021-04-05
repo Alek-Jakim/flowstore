@@ -66,28 +66,28 @@ const ProfileScreen = ({ location, history }) => {
                 {loading && <Loader />}
                 <Form onSubmit={handleSubmit}>
                     <Form.Group controlId="email">
-                        <Form.Label>
+                        <Form.Label style={styles.profileLabel}>
                             Name
                 </Form.Label>
                         <Form.Control type="text" placeholder="Enter name" value={name} onChange={(e) => setName(e.target.value)} style={styles.formInputStyles}></Form.Control>
                     </Form.Group>
 
                     <Form.Group controlId="email">
-                        <Form.Label>
+                        <Form.Label style={styles.profileLabel}>
                             Email Address
                 </Form.Label>
                         <Form.Control type="email" placeholder="Enter email" value={email} onChange={(e) => setEmail(e.target.value)} style={styles.formInputStyles}></Form.Control>
                     </Form.Group>
 
                     <Form.Group controlId="password">
-                        <Form.Label>
+                        <Form.Label style={styles.profileLabel}>
                             Password
                 </Form.Label>
                         <Form.Control type="password" placeholder="Enter password" value={password} onChange={(e) => setPassword(e.target.value)} style={styles.formInputStyles}></Form.Control>
                     </Form.Group>
 
                     <Form.Group controlId="confirmPassword">
-                        <Form.Label>
+                        <Form.Label style={styles.profileLabel}>
                             Confirm Password
                 </Form.Label>
                         <Form.Control type="password" placeholder="Confirm password" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} style={styles.formInputStyles}></Form.Control>
@@ -98,7 +98,7 @@ const ProfileScreen = ({ location, history }) => {
             </Col>
 
             <Col md={9} className="my-4">
-                <h2>My Orders</h2>
+                <h2 style={{ color: '#000' }}>My Orders</h2>
             </Col>
         </Row>
     )

@@ -10,6 +10,10 @@ export const styles = {
     h1Style: {
         marginTop: '3rem',
         fontWeight: 'bold',
-        fontSize: '1.8rem'
+        fontSize: '1.8rem',
+        color: '#000'
+    },
+    profileLabel: {
+        color: '#000'
     }
 }

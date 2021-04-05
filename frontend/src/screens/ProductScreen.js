@@ -45,13 +45,13 @@ const ProductScreen = ({ match, history }) => {
                     <Col md={3} className="mr-5">
                         <ListGroup variant="flush" style={{ width: '300px', maxWidth: '600px' }}>
                             <ListGroup.Item>
-                                <h3>{product.name}</h3>
+                                <h3 style={{ color: '#fff' }}>{product.name}</h3>
                             </ListGroup.Item>
-                            <ListGroup.Item>
+                            <ListGroup.Item style={{ color: '#fff' }}>
                                 <Rating rating={product.rating} text={`${product.numReviews} reviews`} />
                             </ListGroup.Item>
-                            <ListGroup.Item>Price: ${product.price}</ListGroup.Item>
-                            <ListGroup.Item style={{ fontSize: '1rem' }}>Description: {product.description}</ListGroup.Item>
+                            <ListGroup.Item style={{ color: '#fff' }}>Price: ${product.price}</ListGroup.Item>
+                            <ListGroup.Item style={{ fontSize: '1rem', color: '#fff' }}>Description: {product.description}</ListGroup.Item>
                         </ListGroup>
                     </Col>
                     <Col md={3} style={{ width: '500px', }}>

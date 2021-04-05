@@ -48,14 +48,14 @@ const LoginScreen = ({ location, history }) => {
             {loading && <Loader />}
             <Form onSubmit={handleSubmit}>
                 <Form.Group controlId="email">
-                    <Form.Label>
+                    <Form.Label style={{ color: '#000' }}>
                         Email Address
                     </Form.Label>
                     <Form.Control type="email" placeholder="Enter email" value={email} onChange={(e) => setEmail(e.target.value)} style={styles.formInputStyles}></Form.Control>
                 </Form.Group>
 
                 <Form.Group controlId="password">
-                    <Form.Label>
+                    <Form.Label style={{ color: '#000' }}>
                         Password
                     </Form.Label>
                     <Form.Control type="password" placeholder="Enter password" value={password} onChange={(e) => setPassword(e.target.value)} style={styles.formInputStyles}></Form.Control>
@@ -64,8 +64,8 @@ const LoginScreen = ({ location, history }) => {
             </Form>
 
             <Row className="py-3">
-                <Col>
-                    New Customer ? <Link to={redirect ? `/register?redirect=${redirect}` : `/register`}>Register Here</Link>
+                <Col style={{ color: '#000' }}>
+                    New Customer ? <Link style={{ color: '#F06911', fontWeight: 'bold' }} to={redirect ? `/register?redirect=${redirect}` : `/register`}>Register Here</Link>
                 </Col>
             </Row>
         </FormContainer>
